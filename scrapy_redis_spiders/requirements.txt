@@ -1,0 +1,4 @@
+scrapy-redis
+scrapy
+redis
+twisted
