@@ -38,7 +38,7 @@ class ChoutiSpider(RedisSpider):
             method='POST',
             headers={'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                      'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'},
-            body='phone=8613163339526&password=466547071&oneMonth=1',
+            body='phone=xxxx&password=xxxxx&oneMonth=1',  #填写对应手机号与密码
             callback=self.check_login,
             meta={'cookiejar': True}
         )
